@@ -13,7 +13,7 @@ from astroquery.vizier import Vizier
 from astropy.coordinates import SkyCoord
 import astropy.units as u
 from tqdm import tqdm
-
+from PIL import Image, ImageTk
 
 # Default Constants
 DEFAULTS = {
